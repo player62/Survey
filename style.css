@@ -1,0 +1,100 @@
+*{
+    margin: 4px;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 10px;
+    right: 10px;
+    height: 60px;
+    padding: 1rem;
+    color: rgb(58, 53, 71);
+    background: rgb(180, 177, 130);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+body{
+    
+    padding-top: 300px;
+    font-family: Inter;
+    height: 100vh;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form{
+    position: absolute;
+    top: 1px;
+    background: white;
+    padding: 60px;
+    width: 800px;
+    max-width: calc(100% - 60px);
+    border-radius: 5px;
+}
+
+.slider{
+    appearance: none;
+    width: 40%;
+    height: 10px;
+    border-radius: 5px;
+    background: #ccc;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(113, 111, 233);
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(113, 111, 233);
+    cursor: pointer;
+}
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-element{
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    border: 1px solid;
+    border: 1px solid #d0d2e2;
+        line-height: 2;
+        padding: 5px;
+        border-radius: 5px;
+}
+
+.radio-buttons label{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+form button{
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background: #1aaaef;
+    border-radius: 5px;
+}

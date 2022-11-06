@@ -23,7 +23,7 @@ body{
     padding-top: 300px;
     font-family: Inter;
     height: 100vh;
-    background: #eee;
+    background: rgb(233, 227, 209);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,7 +80,7 @@ form{
 
 input, textarea{
     border: 1px solid;
-    border: 1px solid #d0d2e2;
+    border: 1px solid #dddfeb;
         line-height: 2;
         padding: 5px;
         border-radius: 5px;
@@ -95,6 +95,6 @@ form button{
     width: 100%;
     padding: 20px;
     color: white;
-    background: #1aaaef;
+    background: #d4bb9a;
     border-radius: 5px;
 }

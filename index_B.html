@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style_B.css"/>
+</head>
+
+<style>
+    ::-webkit-scrollbar{
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track{
+        border-radius: 5px;
+        box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+    }
+
+    ::-webkit-scrollbar-thumb{
+        border-radius: 5px;
+        background-color: #009578;
+    }
+
+    ::-webkit-scrollbar-thumb:hover{
+        background-color: #6dcdb1;
+    }
+</style>
+
+<body>
+    <form action="">
+        <header>
+            <h2>학교폭력 관련 설문조사</h2>
+            <h4>재원이가 만들었지롱</h4>
+        </header>
+
+        <div class = "form-element" >
+            <span>0. 이름을 입력해주세요</span>
+            <input type="text" name = "Name" placeholder="ex) 홍길동">
+        </div>
+
+        <div class="form-element radio-buttons">
+            <span>1. 나는 내 감정을 잘 표현하지 않는다.</span>
+            <label for="">
+                <label><input type="radio" name = "1">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "1">약간 그렇지 않다</label>
+                <label><input type="radio" name = "1">보통이다</label>
+                <label><input type="radio" name = "1">약간 그렇다</label>
+                <label><input type="radio" name = "1">매우 그렇다</label>
+                <br><br>
+            </label>
+
+            <span>2. 나는 불합리한 상황에 적극적으로 맞서 싸우지 않는다.</span>
+            <label for="">
+                <label><input type="radio" name = "2">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "2">약간 그렇지 않다</label>
+                <label><input type="radio" name = "2">보통이다</label>
+                <label><input type="radio" name = "2">약간 그렇다</label>
+                <label><input type="radio" name = "2">매우 그렇다</label>
+                <br><br>
+            </label>
+
+            <span>3. 나는 행동에 대하여 부모님이나 어른들의 생각을 많이 고려하곤 한다.</span>
+            <label for="">
+                <label><input type="radio" name = "3">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "3">약간 그렇지 않다</label>
+                <label><input type="radio" name = "3">보통이다</label>
+                <label><input type="radio" name = "3">약간 그렇다</label>
+                <label><input type="radio" name = "3">매우 그렇다</label>
+                <br><br>
+            </label>
+
+            <span>4. 나는 부모로부터 충분한 관심과 보호를 받는다.</span>
+            <label for="">
+                <label><input type="radio" name = "4">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "4">약간 그렇지 않다</label>
+                <label><input type="radio" name = "4">보통이다</label>
+                <label><input type="radio" name = "4">약간 그렇다</label>
+                <label><input type="radio" name = "4">매우 그렇다</label>
+                <br><br>
+            </label>
+
+            <span>5. 나는 가해학생 또는 학우들에게 나의 의사를 확실히 표현한다.</span>
+            <label for="">
+                <label><input type="radio" name = "5">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "5">약간 그렇지 않다</label>
+                <label><input type="radio" name = "5">보통이다</label>
+                <label><input type="radio" name = "5">약간 그렇다</label>
+                <label><input type="radio" name = "5">매우 그렇다</label>
+                <br><br>
+            </label>
+
+            <span>6. 나는 친구가 때리면 똑같이 때려주어야 속이 시원해진다.</span>
+            <label for="">
+                <label><input type="radio" name = "6">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "6">약간 그렇지 않다</label>
+                <label><input type="radio" name = "6">보통이다</label>
+                <label><input type="radio" name = "6">약간 그렇다</label>
+                <label><input type="radio" name = "6">매우 그렇다</label>
+                <br><br>
+            </label>
+
+            <span>7. 나는 화를 자주 참는 편이다.</span>
+            <label for="">
+                <label><input type="radio" name = "7">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "7">약간 그렇지 않다</label>
+                <label><input type="radio" name = "7">보통이다</label>
+                <label><input type="radio" name = "7">약간 그렇다</label>
+                <label><input type="radio" name = "7">매우 그렇다</label>
+                <br><br>
+            </label>
+
+            <span>8. 나는 마음에 안드는 것이 있어도 순응하는 경우가 많다.</span>
+            <label for="">
+                <label><input type="radio" name = "8">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "8">약간 그렇지 않다</label>
+                <label><input type="radio" name = "8">보통이다</label>
+                <label><input type="radio" name = "8">약간 그렇다</label>
+                <label><input type="radio" name = "8">매우 그렇다</label>
+                <br><br>
+            </label>
+
+            <span>9. 나는 나 스스로를 잘 절제할 수 있다.</span>
+            <label for="">
+                <label><input type="radio" name = "9">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "9">약간 그렇지 않다</label>
+                <label><input type="radio" name = "9">보통이다</label>
+                <label><input type="radio" name = "9">약간 그렇다</label>
+                <label><input type="radio" name = "9">매우 그렇다</label>
+                <br><br>
+            </label>
+
+            <span>10. 나는 일상생활에서 의욕이 없고 항상 무기력하다.</span>
+            <label for="">
+                <label><input type="radio" name = "10">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "10">약간 그렇지 않다</label>
+                <label><input type="radio" name = "10">보통이다</label>
+                <label><input type="radio" name = "10">약간 그렇다</label>
+                <label><input type="radio" name = "10">매우 그렇다</label>
+                <br><br>
+            </label>
+
+            <span>11. 나는 친하지 않은 친구에게는 선뜻 말을 먼저  건네기가 어렵다.</span>
+            <label for="">
+                <label><input type="radio" name = "11">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "11">약간 그렇지 않다</label>
+                <label><input type="radio" name = "11">보통이다</label>
+                <label><input type="radio" name = "11">약간 그렇다</label>
+                <label><input type="radio" name = "11">매우 그렇다</label>
+                <br><br>
+            </label>
+
+            <span>12. 나는 학우들과 갈등이 발생하면, 즉각적으로 반응한다.</span>
+            <label for="">
+                <label><input type="radio" name = "12">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "12">약간 그렇지 않다</label>
+                <label><input type="radio" name = "12">보통이다</label>
+                <label><input type="radio" name = "12">약간 그렇다</label>
+                <label><input type="radio" name = "12">매우 그렇다</label>
+                <br><br>
+            </label>
+
+            <span>13. 나는 부모님의 통제나 관심으로부터 자유롭다.</span>
+            <label for="">
+                <label><input type="radio" name = "13">전혀 그렇지 않다</label>
+                <label><input type="radio" name = "13">약간 그렇지 않다</label>
+                <label><input type="radio" name = "13">보통이다</label>
+                <label><input type="radio" name = "13">약간 그렇다</label>
+                <label><input type="radio" name = "13">매우 그렇다</label>
+                <br><br>
+            </label>
+        </div>
+
+        <div class="form-element">
+            <span>14. 가해 학생에 대한 생각이나 느낌은?</span>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+
+            <span>15. 앞으로 학교생활에서 본인이 바라는 점은?</span>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+    </form>
+</body>
+</html>
